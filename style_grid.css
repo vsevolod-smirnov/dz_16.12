@@ -1,0 +1,30 @@
+.circle {
+	background: blue;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	margin:2px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr); /*10 кружочков на новой строке*/
+	                       /*repeat(20, 1fr);20 кружочков в линию;*/
+
+}
+@media	screen and (max-width: 500px) {
+	.grid {
+		grid-template-columns: repeat(5, 1fr);
+	}
+	.circle {
+		background: red;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.grid {
+		grid-template-columns:repeat(20, 1fr);
+	}
+	.circle {
+		background: yellow;
+	}
+}
+}
