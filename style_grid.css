@@ -1,5 +1,5 @@
 .circle {
-	background: green;
+	background: black;
 	width: 15px;
 	height: 15px;
 	border-radius: 100%;
@@ -16,7 +16,7 @@
 		grid-template-columns: repeat(5, 1fr);
 	}
 	.circle {
-		background: green;
+		background: black;
 	}
 }
 @media screen and (min-width: 1000px) {
@@ -24,7 +24,7 @@
 		grid-template-columns:repeat(20, 1fr);
 	}
 	.circle {
-		background: green;
+		background: black;
 	}
 }
 }
